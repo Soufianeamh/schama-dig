@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contactez Schama Dig au sujet de votre site vitrine ou d’un projet d’intégration de l’intelligence artificielle au Maroc.">
+    <meta name="theme-color" content="#10172a">
+    <title>Contact et devis pour votre site web au Maroc | Schama Dig</title>
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_MA">
+    <meta property="og:title" content="Contact et devis pour votre site web au Maroc | Schama Dig">
+    <meta property="og:description" content="Parlons de votre site vitrine ou de l’intégration de l’intelligence artificielle dans votre activité.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <meta name="color-scheme" content="light">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <header class="site-header"><div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Schama Dig, accueil"><span class="brand-mark" aria-hidden="true">SD</span><span class="brand-label">Schama Dig</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu"><span></span><span></span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Navigation principale"><a class="nav-link" href="index.html#accueil">Accueil</a><a class="nav-link" href="services.html">Services</a><a class="nav-link" href="index.html#realisations">Projets</a><a class="nav-link" href="index.html#faq">FAQ</a><a class="nav-link active" href="#contact-form" aria-current="page">Contact</a><a class="button button-dark nav-cta" href="#contact-form">Demander un devis <span aria-hidden="true">↗</span></a></nav>
+    </div></header>
+    <main id="contenu">
+      <section class="inner-hero contact-hero section"><div class="container inner-hero-grid"><div><p class="eyebrow"><span class="eyebrow-dot"></span> Contact · Maroc</p><h1>Parlons de votre<br><span class="text-highlight">projet web.</span></h1></div><div class="contact-hero-aside"><p>Présentez votre activité, vos besoins et vos objectifs. Ces premières informations aideront à définir une solution adaptée.</p><span class="contact-scribble" aria-hidden="true">✳</span></div></div></section>
+      <section class="contact-section"><div class="container contact-grid">
+        <div class="contact-details"><p class="eyebrow">Schama Dig · Contact</p><h2>Parlons de votre<br>projet web.</h2><p>Décrivez votre activité, les services à présenter et les améliorations que vous envisagez. La proposition sera adaptée aux besoins et au périmètre discutés.</p><div class="contact-note"><span class="note-check" aria-hidden="true">✳</span><span><strong>Un projet ? Demandez un devis.</strong><small>Indiquez vos objectifs pour préparer un premier échange utile.</small></span></div><button class="whatsapp-placeholder" type="button" disabled aria-describedby="whatsapp-note">WhatsApp · numéro à configurer</button><p class="whatsapp-note" id="whatsapp-note">Le bouton sera activé après l’ajout d’un numéro professionnel.</p><div class="contact-location"><span aria-hidden="true">✳</span><p>Création de sites vitrines et intégration IA<br><strong>Pour les professionnels au Maroc.</strong></p></div></div>
+        <form class="contact-form" id="contact-form" data-recipient-email="">
+          <div class="form-heading"><h2>Parlez de votre projet</h2><p>Les champs marqués d’un astérisque sont obligatoires.</p></div>
+          <label for="name">Votre nom <span aria-hidden="true">*</span></label><input id="name" name="name" type="text" autocomplete="name" placeholder="Votre nom" required>
+          <label for="email">Votre adresse e-mail <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" placeholder="Votre adresse e-mail" required>
+          <label for="phone">Votre téléphone <span class="optional-label">(facultatif)</span></label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Votre numéro de téléphone">
+          <label for="activity">Votre activité <span aria-hidden="true">*</span></label><select id="activity" name="activity" required><option value="" disabled selected>Choisissez une option</option><option>Commerce ou boutique</option><option>Restaurant ou café</option><option>Artisan ou créateur</option><option>Profession libérale</option><option>Autre activité</option></select>
+          <label for="project">Votre besoin principal <span aria-hidden="true">*</span></label><select id="project" name="project" required><option value="" disabled selected>Choisissez une option</option><option>Créer un site vitrine</option><option>Intégrer une solution d’intelligence artificielle</option><option>Faire évoluer un site existant</option><option>Autre besoin numérique</option></select>
+          <label for="message">Quelques mots sur votre projet <span aria-hidden="true">*</span></label><textarea id="message" name="message" rows="4" placeholder="Où en êtes-vous ? Qu’aimeriez-vous accomplir ?" required></textarea>
+          <button class="button button-dark form-submit" type="submit">Préparer mon message <span aria-hidden="true">↗</span></button>
+          <p class="form-privacy" id="confidentialite">Ce formulaire prépare un message dans votre application e-mail une fois une adresse de réception configurée. Aucune donnée n’est enregistrée sur le site.</p>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div></section>
+      <section class="contact-bottom"><div class="container contact-bottom-inner"><span>Une demande précise aide à préparer une proposition adaptée.</span><a href="index.html#contact-form">Revenir au formulaire <span aria-hidden="true">↗</span></a></div></section>
+    </main>
+    <footer class="site-footer"><div class="container footer-top"><a class="brand brand-footer" href="index.html" aria-label="Schama Dig, accueil"><span class="brand-mark" aria-hidden="true">SD</span><span class="brand-label">Schama Dig</span></a><p>Des sites clairs et utiles.<br>Pour votre activité, au Maroc.</p></div><div class="container footer-bottom"><span>© <span data-year>2026</span> Schama Dig.</span><div><a href="services.html">Services</a><a href="index.html#contact">Contact</a><a href="#confidentialite">Confidentialité</a></div><span>Création web assistée par l’IA.</span></div></footer>
+  </body>
+</html>
