@@ -899,3 +899,12 @@ p { text-wrap: pretty; }
   .not-found-section { min-height: calc(100svh - 160px); }
   .not-found-actions { align-items: flex-start; flex-direction: column; }
 }
+.whatsapp-placeholder { gap: 9px; border-color: #a7c8b5; background: #edf5f0; color: #24533c; }
+.whatsapp-placeholder:hover { border-color: #6da486; background: #e1f0e7; }
+.whatsapp-placeholder:focus-visible { outline-color: #24533c; }
+.contact-email-placeholder, .footer-email-placeholder { color: var(--primary-deep); }
+.contact-email-placeholder:hover, .footer-email-placeholder:hover { color: var(--primary); }
+.footer-email-placeholder { font-size: 12px; }
+@media (max-width: 700px) {
+  .footer-email-placeholder { font-size: 11px; }
+}
